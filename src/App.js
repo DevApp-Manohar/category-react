@@ -7,7 +7,7 @@ import Login from './pages/Login';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/<repo-name>">
+      <BrowserRouter basename="/category-react">
       <Routes>
         <Route path='/' element={<Navigate to="/login" />} />
         <Route path='/login' element={<Login />} />
