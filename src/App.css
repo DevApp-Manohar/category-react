@@ -1,0 +1,158 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  font-size: 20px;
+}
+
+
+.container {
+  margin-left: 500px;
+  margin-top: 50px;
+  background-color: #fff;
+  padding: 25px 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.container>h1 {
+  margin-bottom: 20px;
+}
+
+.container>form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.container input {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.container input::placeholder {
+  font-size: 12px;
+  font-style: italic;
+}
+
+button {
+  background-color: purple;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+
+}
+
+/* HomeContainer */
+
+.homecontainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.add-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+.add-user {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-user:hover {
+  background-color: #45a049;
+}
+
+.category-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.category-table th,
+.category-table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.category-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.category-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.category-table tr:hover {
+  background-color: #f1f1f1;
+}
+.form-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+
+}
+.form-category input{
+  height: 40px;
+  padding: 5px;
+  gap: 10px;
+  margin-right: 10px;
+
+  
+}
+.filter {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter input{
+  height: 40px;
+  padding: 5px;
+}
+
+.edit-btn {
+  height: 40px;
+}
+
+.delete-btn {
+  height: 40px;
+}
